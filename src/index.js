@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import {Router} from '@reach/router'
 import ReactDOM from 'react-dom';
+import Homepage from './Homepage';
+import Navbar from './Navbar';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Find these files in the link description below</h1>
+      <div className='bg'>
+        <Navbar />
+        <Homepage />
       </div>
     );
   }

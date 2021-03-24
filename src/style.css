@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(rgba(32, 23, 161, 0.1), rgba(32, 23, 161, 0.1)), url(./transport.jpg);
+     background-size: cover; 
+     margin: 0;
+    
+    /* background-repeat: no-repeat; */
+    /* background-image: url(./trans.jpg); */
+    /* background-color: rgb(85, 49, 214); */
+}
+.Homepage{
+    margin: 0;
+    height: 90vh;
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   /* justify-content: center; */
+}
+.board{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.board1 {
+    background-color: rgba(250, 7, 7, 0.7);
+    color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.board2 {
+    background-color: rgb(241, 240, 248);
+    align-self: stretch;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boardButton{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border: 1px solid white;
+   
+}
+.navLink{
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    
+}
+.navUl{
+    background-color: white;
+    width: 100vw;
+    padding: 10px;
+    margin: 0;
+}
+.navLink:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
