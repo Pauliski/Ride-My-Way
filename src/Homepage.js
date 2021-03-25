@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from '@reach/router'
 import trans from './trans.jpg'
 const Homepage = () => {
     return (
@@ -6,7 +7,8 @@ const Homepage = () => {
             <div className='board'>
                 <div className='board1'>
                     <div><h1>Get a stressfree ride</h1>
-                    <button className='boardButton'>Our Service</button></div>
+                    <Link to='/user'><button className='boardButton'>Join Us</button></Link>
+                    </div>
                 </div>  
                 <div className='board2'>
                     <h1>Your Satisfaction is our top most Priority</h1>
