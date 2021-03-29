@@ -30,7 +30,7 @@ const Login = () => {
             
             <input type="text" placeholder='Username'/>
             <input type="text" placeholder='Email Adress'/>
-            <input type="text" inputmode="numeric" placeholder='Mobile Number'/> 
+            <input type="text" inputMode="numeric" placeholder='Mobile Number'/> 
             <input type="text" placeholder='Home Adress'/>
             <input type="password" placeholder='Password'/>
             <input type="password" placeholder='Confirm Password'/>
